@@ -1,0 +1,29 @@
+//
+//  PrefixHeader.pch
+//  LeZhuoGameSDk
+//
+//  Created by xiang on 16/5/9.
+//  Copyright © 2016年 ZhanxiangQu. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+/**
+ *  一个debug的log，只在调试状态下有log记录，
+ *
+ *  @param ... __PRETTY_FUNCTION__  非标准宏。这个宏比__FUNCTION__功能更强,  若用g++编译C++程序, __FUNCTION__只能输出类的成员名,不会输出类名; 而__PRETTY_FUNCTION__则会以 <return-type>  <class-name>::<member-function-name>(<parameters-list>) 的格式输出成员函数的详悉信息(注: 只会输出parameters-list的形参类型, 而不会输出形参名).若用gcc编译C程序,__PRETTY_FUNCTION__跟__FUNCTION__的功能相同.
+ *
+ *  @param ...__VA_ARGS__可变参数宏(variadic macros)
+ *  @return <#return value description#>
+ */
+#ifdef DEBUG
+#define DMLog(...) NSLog(@"%s %@", __PRETTY_FUNCTION__, [NSString stringWithFormat:__VA_ARGS__])
+#else
+#define DMLog(...) do { } while (0)
+#endif
+
+#endif /* PrefixHeader_pch */

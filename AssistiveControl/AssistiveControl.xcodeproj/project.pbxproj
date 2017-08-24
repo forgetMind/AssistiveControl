@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F08A13DA1F4EA8180033E26C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F08A13D91F4EA8180033E26C /* main.m */; };
+		F08A13DD1F4EA8180033E26C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F08A13DC1F4EA8180033E26C /* AppDelegate.m */; };
+		F08A13E01F4EA8180033E26C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F08A13DF1F4EA8180033E26C /* ViewController.m */; };
+		F08A13E31F4EA8180033E26C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08A13E11F4EA8180033E26C /* Main.storyboard */; };
+		F08A13E51F4EA8180033E26C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F08A13E41F4EA8180033E26C /* Assets.xcassets */; };
+		F08A13E81F4EA8180033E26C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F08A13E61F4EA8180033E26C /* LaunchScreen.storyboard */; };
+		F08A13F31F4EA8180033E26C /* AssistiveControlTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F08A13F21F4EA8180033E26C /* AssistiveControlTests.m */; };
+		F08A13FE1F4EA8180033E26C /* AssistiveControlUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F08A13FD1F4EA8180033E26C /* AssistiveControlUITests.m */; };
+		F08A14141F4EA8880033E26C /* LeZhuoGameLogoView.m in Sources */ = {isa = PBXBuildFile; fileRef = F08A140C1F4EA8880033E26C /* LeZhuoGameLogoView.m */; };
+		F08A14151F4EA8880033E26C /* LeZhuoGameLogoView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08A140D1F4EA8880033E26C /* LeZhuoGameLogoView.xib */; };
+		F08A14161F4EA8880033E26C /* LeZhuoGameUserInfomationActionOnLeftView.m in Sources */ = {isa = PBXBuildFile; fileRef = F08A140F1F4EA8880033E26C /* LeZhuoGameUserInfomationActionOnLeftView.m */; };
+		F08A14171F4EA8880033E26C /* LeZhuoGameUserInfomationActionOnLeftView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F08A14101F4EA8880033E26C /* LeZhuoGameUserInfomationActionOnLeftView.xib */; };
+		F08A14181F4EA8880033E26C /* QZXAssistiveControl.m in Sources */ = {isa = PBXBuildFile; fileRef = F08A14131F4EA8880033E26C /* QZXAssistiveControl.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F08A13EF1F4EA8180033E26C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F08A13CD1F4EA8180033E26C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08A13D41F4EA8180033E26C;
+			remoteInfo = AssistiveControl;
+		};
+		F08A13FA1F4EA8180033E26C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F08A13CD1F4EA8180033E26C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F08A13D41F4EA8180033E26C;
+			remoteInfo = AssistiveControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F08A13D51F4EA8180033E26C /* AssistiveControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssistiveControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08A13D91F4EA8180033E26C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F08A13DB1F4EA8180033E26C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F08A13DC1F4EA8180033E26C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F08A13DE1F4EA8180033E26C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F08A13DF1F4EA8180033E26C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F08A13E21F4EA8180033E26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F08A13E41F4EA8180033E26C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F08A13E71F4EA8180033E26C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F08A13E91F4EA8180033E26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08A13EE1F4EA8180033E26C /* AssistiveControlTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssistiveControlTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08A13F21F4EA8180033E26C /* AssistiveControlTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssistiveControlTests.m; sourceTree = "<group>"; };
+		F08A13F41F4EA8180033E26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08A13F91F4EA8180033E26C /* AssistiveControlUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssistiveControlUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F08A13FD1F4EA8180033E26C /* AssistiveControlUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssistiveControlUITests.m; sourceTree = "<group>"; };
+		F08A13FF1F4EA8180033E26C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F08A140B1F4EA8880033E26C /* LeZhuoGameLogoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeZhuoGameLogoView.h; sourceTree = "<group>"; };
+		F08A140C1F4EA8880033E26C /* LeZhuoGameLogoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeZhuoGameLogoView.m; sourceTree = "<group>"; };
+		F08A140D1F4EA8880033E26C /* LeZhuoGameLogoView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeZhuoGameLogoView.xib; sourceTree = "<group>"; };
+		F08A140E1F4EA8880033E26C /* LeZhuoGameUserInfomationActionOnLeftView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeZhuoGameUserInfomationActionOnLeftView.h; sourceTree = "<group>"; };
+		F08A140F1F4EA8880033E26C /* LeZhuoGameUserInfomationActionOnLeftView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeZhuoGameUserInfomationActionOnLeftView.m; sourceTree = "<group>"; };
+		F08A14101F4EA8880033E26C /* LeZhuoGameUserInfomationActionOnLeftView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LeZhuoGameUserInfomationActionOnLeftView.xib; sourceTree = "<group>"; };
+		F08A14111F4EA8880033E26C /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		F08A14121F4EA8880033E26C /* QZXAssistiveControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = QZXAssistiveControl.h; sourceTree = "<group>"; };
+		F08A14131F4EA8880033E26C /* QZXAssistiveControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = QZXAssistiveControl.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F08A13D21F4EA8180033E26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08A13EB1F4EA8180033E26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08A13F61F4EA8180033E26C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F08A13CC1F4EA8170033E26C = {
+			isa = PBXGroup;
+			children = (
+				F08A13D71F4EA8180033E26C /* AssistiveControl */,
+				F08A13F11F4EA8180033E26C /* AssistiveControlTests */,
+				F08A13FC1F4EA8180033E26C /* AssistiveControlUITests */,
+				F08A13D61F4EA8180033E26C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F08A13D61F4EA8180033E26C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F08A13D51F4EA8180033E26C /* AssistiveControl.app */,
+				F08A13EE1F4EA8180033E26C /* AssistiveControlTests.xctest */,
+				F08A13F91F4EA8180033E26C /* AssistiveControlUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F08A13D71F4EA8180033E26C /* AssistiveControl */ = {
+			isa = PBXGroup;
+			children = (
+				F08A13DB1F4EA8180033E26C /* AppDelegate.h */,
+				F08A13DC1F4EA8180033E26C /* AppDelegate.m */,
+				F08A13DE1F4EA8180033E26C /* ViewController.h */,
+				F08A13DF1F4EA8180033E26C /* ViewController.m */,
+				F08A140B1F4EA8880033E26C /* LeZhuoGameLogoView.h */,
+				F08A140C1F4EA8880033E26C /* LeZhuoGameLogoView.m */,
+				F08A140D1F4EA8880033E26C /* LeZhuoGameLogoView.xib */,
+				F08A140E1F4EA8880033E26C /* LeZhuoGameUserInfomationActionOnLeftView.h */,
+				F08A140F1F4EA8880033E26C /* LeZhuoGameUserInfomationActionOnLeftView.m */,
+				F08A14101F4EA8880033E26C /* LeZhuoGameUserInfomationActionOnLeftView.xib */,
+				F08A14111F4EA8880033E26C /* PrefixHeader.pch */,
+				F08A14121F4EA8880033E26C /* QZXAssistiveControl.h */,
+				F08A14131F4EA8880033E26C /* QZXAssistiveControl.m */,
+				F08A13E11F4EA8180033E26C /* Main.storyboard */,
+				F08A13E41F4EA8180033E26C /* Assets.xcassets */,
+				F08A13E61F4EA8180033E26C /* LaunchScreen.storyboard */,
+				F08A13E91F4EA8180033E26C /* Info.plist */,
+				F08A13D81F4EA8180033E26C /* Supporting Files */,
+			);
+			path = AssistiveControl;
+			sourceTree = "<group>";
+		};
+		F08A13D81F4EA8180033E26C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F08A13D91F4EA8180033E26C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F08A13F11F4EA8180033E26C /* AssistiveControlTests */ = {
+			isa = PBXGroup;
+			children = (
+				F08A13F21F4EA8180033E26C /* AssistiveControlTests.m */,
+				F08A13F41F4EA8180033E26C /* Info.plist */,
+			);
+			path = AssistiveControlTests;
+			sourceTree = "<group>";
+		};
+		F08A13FC1F4EA8180033E26C /* AssistiveControlUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F08A13FD1F4EA8180033E26C /* AssistiveControlUITests.m */,
+				F08A13FF1F4EA8180033E26C /* Info.plist */,
+			);
+			path = AssistiveControlUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F08A13D41F4EA8180033E26C /* AssistiveControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08A14021F4EA8180033E26C /* Build configuration list for PBXNativeTarget "AssistiveControl" */;
+			buildPhases = (
+				F08A13D11F4EA8180033E26C /* Sources */,
+				F08A13D21F4EA8180033E26C /* Frameworks */,
+				F08A13D31F4EA8180033E26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AssistiveControl;
+			productName = AssistiveControl;
+			productReference = F08A13D51F4EA8180033E26C /* AssistiveControl.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F08A13ED1F4EA8180033E26C /* AssistiveControlTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08A14051F4EA8180033E26C /* Build configuration list for PBXNativeTarget "AssistiveControlTests" */;
+			buildPhases = (
+				F08A13EA1F4EA8180033E26C /* Sources */,
+				F08A13EB1F4EA8180033E26C /* Frameworks */,
+				F08A13EC1F4EA8180033E26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F08A13F01F4EA8180033E26C /* PBXTargetDependency */,
+			);
+			name = AssistiveControlTests;
+			productName = AssistiveControlTests;
+			productReference = F08A13EE1F4EA8180033E26C /* AssistiveControlTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F08A13F81F4EA8180033E26C /* AssistiveControlUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F08A14081F4EA8180033E26C /* Build configuration list for PBXNativeTarget "AssistiveControlUITests" */;
+			buildPhases = (
+				F08A13F51F4EA8180033E26C /* Sources */,
+				F08A13F61F4EA8180033E26C /* Frameworks */,
+				F08A13F71F4EA8180033E26C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F08A13FB1F4EA8180033E26C /* PBXTargetDependency */,
+			);
+			name = AssistiveControlUITests;
+			productName = AssistiveControlUITests;
+			productReference = F08A13F91F4EA8180033E26C /* AssistiveControlUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F08A13CD1F4EA8180033E26C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = ZhanxiangQu;
+				TargetAttributes = {
+					F08A13D41F4EA8180033E26C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = T73CJ3E649;
+						ProvisioningStyle = Automatic;
+					};
+					F08A13ED1F4EA8180033E26C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = T73CJ3E649;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F08A13D41F4EA8180033E26C;
+					};
+					F08A13F81F4EA8180033E26C = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = T73CJ3E649;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F08A13D41F4EA8180033E26C;
+					};
+				};
+			};
+			buildConfigurationList = F08A13D01F4EA8180033E26C /* Build configuration list for PBXProject "AssistiveControl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F08A13CC1F4EA8170033E26C;
+			productRefGroup = F08A13D61F4EA8180033E26C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F08A13D41F4EA8180033E26C /* AssistiveControl */,
+				F08A13ED1F4EA8180033E26C /* AssistiveControlTests */,
+				F08A13F81F4EA8180033E26C /* AssistiveControlUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F08A13D31F4EA8180033E26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08A14151F4EA8880033E26C /* LeZhuoGameLogoView.xib in Resources */,
+				F08A13E81F4EA8180033E26C /* LaunchScreen.storyboard in Resources */,
+				F08A13E51F4EA8180033E26C /* Assets.xcassets in Resources */,
+				F08A13E31F4EA8180033E26C /* Main.storyboard in Resources */,
+				F08A14171F4EA8880033E26C /* LeZhuoGameUserInfomationActionOnLeftView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08A13EC1F4EA8180033E26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08A13F71F4EA8180033E26C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F08A13D11F4EA8180033E26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08A14141F4EA8880033E26C /* LeZhuoGameLogoView.m in Sources */,
+				F08A13E01F4EA8180033E26C /* ViewController.m in Sources */,
+				F08A13DD1F4EA8180033E26C /* AppDelegate.m in Sources */,
+				F08A14181F4EA8880033E26C /* QZXAssistiveControl.m in Sources */,
+				F08A14161F4EA8880033E26C /* LeZhuoGameUserInfomationActionOnLeftView.m in Sources */,
+				F08A13DA1F4EA8180033E26C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08A13EA1F4EA8180033E26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08A13F31F4EA8180033E26C /* AssistiveControlTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08A13F51F4EA8180033E26C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F08A13FE1F4EA8180033E26C /* AssistiveControlUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F08A13F01F4EA8180033E26C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F08A13D41F4EA8180033E26C /* AssistiveControl */;
+			targetProxy = F08A13EF1F4EA8180033E26C /* PBXContainerItemProxy */;
+		};
+		F08A13FB1F4EA8180033E26C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F08A13D41F4EA8180033E26C /* AssistiveControl */;
+			targetProxy = F08A13FA1F4EA8180033E26C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F08A13E11F4EA8180033E26C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F08A13E21F4EA8180033E26C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F08A13E61F4EA8180033E26C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F08A13E71F4EA8180033E26C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F08A14001F4EA8180033E26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F08A14011F4EA8180033E26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F08A14031F4EA8180033E26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T73CJ3E649;
+				INFOPLIST_FILE = AssistiveControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhanxiangQu.AssistiveControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F08A14041F4EA8180033E26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T73CJ3E649;
+				INFOPLIST_FILE = AssistiveControl/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhanxiangQu.AssistiveControl;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F08A14061F4EA8180033E26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T73CJ3E649;
+				INFOPLIST_FILE = AssistiveControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhanxiangQu.AssistiveControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssistiveControl.app/AssistiveControl";
+			};
+			name = Debug;
+		};
+		F08A14071F4EA8180033E26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T73CJ3E649;
+				INFOPLIST_FILE = AssistiveControlTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhanxiangQu.AssistiveControlTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AssistiveControl.app/AssistiveControl";
+			};
+			name = Release;
+		};
+		F08A14091F4EA8180033E26C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T73CJ3E649;
+				INFOPLIST_FILE = AssistiveControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhanxiangQu.AssistiveControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AssistiveControl;
+			};
+			name = Debug;
+		};
+		F08A140A1F4EA8180033E26C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T73CJ3E649;
+				INFOPLIST_FILE = AssistiveControlUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ZhanxiangQu.AssistiveControlUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = AssistiveControl;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F08A13D01F4EA8180033E26C /* Build configuration list for PBXProject "AssistiveControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08A14001F4EA8180033E26C /* Debug */,
+				F08A14011F4EA8180033E26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F08A14021F4EA8180033E26C /* Build configuration list for PBXNativeTarget "AssistiveControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08A14031F4EA8180033E26C /* Debug */,
+				F08A14041F4EA8180033E26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F08A14051F4EA8180033E26C /* Build configuration list for PBXNativeTarget "AssistiveControlTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08A14061F4EA8180033E26C /* Debug */,
+				F08A14071F4EA8180033E26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F08A14081F4EA8180033E26C /* Build configuration list for PBXNativeTarget "AssistiveControlUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F08A14091F4EA8180033E26C /* Debug */,
+				F08A140A1F4EA8180033E26C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F08A13CD1F4EA8180033E26C /* Project object */;
+}
